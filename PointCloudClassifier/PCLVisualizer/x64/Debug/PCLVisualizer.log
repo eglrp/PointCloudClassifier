@@ -1,0 +1,989 @@
+﻿生成启动时间为 2018/6/23 12:59:17。
+     1>项目“F:\Project_CPlus\PCLCLustering\PCLVisualizer\PCLVisualizer.vcxproj”在节点 2 上(Build 个目标)。
+     1>QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp9738df1966d04fb8a156d2a0b47f5166.cmd"
+         echo Moc'ing PCLViewer.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\PCLViewer.h" -o ".\GeneratedFiles\Debug\moc_PCLViewer.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmpafd4e349511f4af6b0e0548bf762797f.cmd"
+         echo Moc'ing dlgLAS2TXT.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgLAS2TXT.h" -o ".\GeneratedFiles\Debug\moc_dlgLAS2TXT.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp3e6a91ead15b4146a66266ffcd99d6d0.cmd"
+         echo Moc'ing ThreadPassThrough.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\ThreadPassThrough.h" -o ".\GeneratedFiles\Debug\moc_ThreadPassThrough.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmpcf2fff22758345c5be445181e03be24c.cmd"
+         echo Moc'ing dlgPCDBinary2PCDAscii.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgPCDBinary2PCDAscii.h" -o ".\GeneratedFiles\Debug\moc_dlgPCDBinary2PCDAscii.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp1fffaed171b34483a51e0b7ae08b2736.cmd"
+         echo Moc'ing ThreadPCD2PCD.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\ThreadPCD2PCD.h" -o ".\GeneratedFiles\Debug\moc_ThreadPCD2PCD.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp5e67d9938c614c4b9f3d2e27183c84ef.cmd"
+         echo Moc'ing dlgKdTreeCluster.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgKdTreeCluster.h" -o ".\GeneratedFiles\Debug\moc_dlgKdTreeCluster.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmpf3843902add74c7cab4206b5e6a2b2cd.cmd"
+         echo Moc'ing dlgAddPointCloud.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgAddPointCloud.h" -o ".\GeneratedFiles\Debug\moc_dlgAddPointCloud.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp2e27fcb24fdf480382f31cffcb1922b8.cmd"
+         echo Moc'ing dlgBinarySignal.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgBinarySignal.h" -o ".\GeneratedFiles\Debug\moc_dlgBinarySignal.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmpff30282c8e924dedbbf8fd20eb9f70d9.cmd"
+         echo Moc'ing ThreadBinarySignal.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\ThreadBinarySignal.h" -o ".\GeneratedFiles\Debug\moc_ThreadBinarySignal.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmpd1ac7e1ebb064a6a992804ca5feaed79.cmd"
+         echo Moc'ing ThreadBuildSingulation.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\ThreadBuildSingulation.h" -o ".\GeneratedFiles\Debug\moc_ThreadBuildSingulation.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmpd4d5bcb5726447bd927ec3f825854ca2.cmd"
+         echo Moc'ing ThreadUnionFind.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\ThreadUnionFind.h" -o ".\GeneratedFiles\Debug\moc_ThreadUnionFind.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp8cc1bef30d0b428daa4cef4c198f9d75.cmd"
+         echo Moc'ing ThreadPCD2TXT.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\ThreadPCD2TXT.h" -o ".\GeneratedFiles\Debug\moc_ThreadPCD2TXT.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp6795cc9c3a81492a9ec2fa726e574c85.cmd"
+         echo Moc'ing ThreadTXT2PCD.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\ThreadTXT2PCD.h" -o ".\GeneratedFiles\Debug\moc_ThreadTXT2PCD.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp42d524b0842446d78da5cf5bf444c724.cmd"
+         echo Moc'ing ThreadFixIntensity.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\ThreadFixIntensity.h" -o ".\GeneratedFiles\Debug\moc_ThreadFixIntensity.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp3a40b0ca26db43c184c8c3934ade1aed.cmd"
+         echo Moc'ing CSVOperator.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\CSVOperator.h" -o ".\GeneratedFiles\Debug\moc_CSVOperator.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp4425f2d3c49c4eedb67d9bba084e9979.cmd"
+         echo Moc'ing dlgPassThroughFilter.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgPassThroughFilter.h" -o ".\GeneratedFiles\Debug\moc_dlgPassThroughFilter.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp88a340d54b6b40a6a4ad3aaed4038a47.cmd"
+         echo Moc'ing dlgIntensityFix.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgIntensityFix.h" -o ".\GeneratedFiles\Debug\moc_dlgIntensityFix.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp29ae575323a2428e86fc2db31fcceef0.cmd"
+         echo Moc'ing dlgTxt2PCD.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgTxt2PCD.h" -o ".\GeneratedFiles\Debug\moc_dlgTxt2PCD.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtMoc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmpbf0d4bf2372540b48c8e1dbac63ecd8d.cmd"
+         echo Moc'ing dlgPCD2TXT.h...;D:\Qt\5.7\msvc2013_64\bin\moc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgPCD2TXT.h" -o ".\GeneratedFiles\Debug\moc_dlgPCD2TXT.cpp" "-I.\GeneratedFiles" "-I." "-ID:\Qt\5.7\msvc2013_64\include" "-I.\GeneratedFiles\Debug\." "-ID:\Qt\5.7\msvc2013_64\include\QtCore" "-ID:\Qt\5.7\msvc2013_64\include\QtGui" "-ID:\Qt\5.7\msvc2013_64\include\QtANGLE" "-ID:\Qt\5.7\msvc2013_64\include\QtWidgets" -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtRcc:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp3c44e257ed6f44c4a515e259557f4816.cmd"
+         echo Rcc'ing PCLVisualizer.qrc...;D:\Qt\5.7\msvc2013_64\bin\rcc.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\PCLVisualizer.qrc" -o ".\GeneratedFiles\qrc_PCLVisualizer.cpp" --name PCLVisualizer   >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtUic:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp9321dc154b9d4fd39b7fd7fcd92ae331.cmd"
+         echo Uic'ing dlgAddPointCloud.ui...;D:\Qt\5.7\msvc2013_64\bin\uic.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgAddPointCloud.ui" -o ".\GeneratedFiles\ui_dlgAddPointCloud.h"  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtUic:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmpbc47a1be953d48168a69f98621a12bae.cmd"
+         echo Uic'ing dlgBinarySignal.ui...;D:\Qt\5.7\msvc2013_64\bin\uic.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgBinarySignal.ui" -o ".\GeneratedFiles\ui_dlgBinarySignal.h"  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtUic:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp981e19d13b1e42ecbb38cdad6424f164.cmd"
+         echo Uic'ing dlgIntensityFix.ui...;D:\Qt\5.7\msvc2013_64\bin\uic.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgIntensityFix.ui" -o ".\GeneratedFiles\ui_dlgIntensityFix.h"  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtUic:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmpbaf65d5b61034362a616d6b322fa709c.cmd"
+         echo Uic'ing dlgKdTreeCluster.ui...;D:\Qt\5.7\msvc2013_64\bin\uic.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgKdTreeCluster.ui" -o ".\GeneratedFiles\ui_dlgKdTreeCluster.h"  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtUic:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp32e87c416d334ab8b1369ea34f317b90.cmd"
+         echo Uic'ing dlgLAS2TXT.ui...;D:\Qt\5.7\msvc2013_64\bin\uic.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgLAS2TXT.ui" -o ".\GeneratedFiles\ui_dlgLAS2TXT.h"  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtUic:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp0e6f1e0df70a41e8ad752a0637c75c71.cmd"
+         echo Uic'ing dlgPassThroughFilter.ui...;D:\Qt\5.7\msvc2013_64\bin\uic.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgPassThroughFilter.ui" -o ".\GeneratedFiles\ui_dlgPassThroughFilter.h"  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtUic:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp85da3ed56c8a45a1863a781a37dad69d.cmd"
+         echo Uic'ing dlgPCD2TXT.ui...;D:\Qt\5.7\msvc2013_64\bin\uic.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgPCD2TXT.ui" -o ".\GeneratedFiles\ui_dlgPCD2TXT.h"  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtUic:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmp957996a25daf4302854777f6baba6b09.cmd"
+         echo Uic'ing dlgPCDBinary2PCDAscii.ui...;D:\Qt\5.7\msvc2013_64\bin\uic.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgPCDBinary2PCDAscii.ui" -o ".\GeneratedFiles\ui_dlgPCDBinary2PCDAscii.h"  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtUic:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmpeda81b51807d478789edfffd431708c8.cmd"
+         echo Uic'ing dlgTxt2PCD.ui...;D:\Qt\5.7\msvc2013_64\bin\uic.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\dlgTxt2PCD.ui" -o ".\GeneratedFiles\ui_dlgTxt2PCD.h"  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtUic:
+         cmd.exe /C "C:\Users\Never\AppData\Local\Temp\tmpe9dfa89ba63f448f9e4389e2eb26378c.cmd"
+         echo Uic'ing PCLViewer.ui...;D:\Qt\5.7\msvc2013_64\bin\uic.exe;"F:\Project_CPlus\PCLCLustering\PCLVisualizer\PCLViewer.ui" -o ".\GeneratedFiles\ui_PCLViewer.h"  >> "F:\Project_CPlus\PCLCLustering\PCLVisualizer\x64\Debug\qt.txt"
+       QtFinalize:
+         Moc'ing PCLViewer.h...
+         Moc'ing dlgLAS2TXT.h...
+         Moc'ing ThreadPassThrough.h...
+         Moc'ing dlgPCDBinary2PCDAscii.h...
+         Moc'ing ThreadPCD2PCD.h...
+         Moc'ing dlgKdTreeCluster.h...
+         Moc'ing dlgAddPointCloud.h...
+         Moc'ing dlgBinarySignal.h...
+         Moc'ing ThreadBinarySignal.h...
+         Moc'ing ThreadBuildSingulation.h...
+         Moc'ing ThreadUnionFind.h...
+         Moc'ing ThreadPCD2TXT.h...
+         Moc'ing ThreadTXT2PCD.h...
+         Moc'ing ThreadFixIntensity.h...
+         Moc'ing CSVOperator.h...
+         Moc'ing dlgPassThroughFilter.h...
+         Moc'ing dlgIntensityFix.h...
+         Moc'ing dlgTxt2PCD.h...
+         Moc'ing dlgPCD2TXT.h...
+         Rcc'ing PCLVisualizer.qrc...
+         Uic'ing dlgAddPointCloud.ui...
+         Uic'ing dlgBinarySignal.ui...
+         Uic'ing dlgIntensityFix.ui...
+         Uic'ing dlgKdTreeCluster.ui...
+         Uic'ing dlgLAS2TXT.ui...
+         Uic'ing dlgPassThroughFilter.ui...
+         Uic'ing dlgPCD2TXT.ui...
+         Uic'ing dlgPCDBinary2PCDAscii.ui...
+         Uic'ing dlgTxt2PCD.ui...
+         Uic'ing PCLViewer.ui...
+       ClCompile:
+         D:\VS2013\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\5.7\msvc2013_64\include /I.\GeneratedFiles\Debug /ID:\Qt\5.7\msvc2013_64\include\QtCore /ID:\Qt\5.7\msvc2013_64\include\QtGui /ID:\Qt\5.7\msvc2013_64\include\QtANGLE /ID:\Qt\5.7\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /MP /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt CSVOperator.cpp dlgAddPointCloud.cpp dlgBinarySignal.cpp dlgIntensityFix.cpp dlgKdTreeCluster.cpp dlgLAS2TXT.cpp dlgPassThroughFilter.cpp dlgPCD2TXT.cpp dlgPCDBinary2PCDAscii.cpp dlgTxt2PCD.cpp main.cpp PCLViewer.cpp ThreadBinarySignal.cpp ThreadBuildSingulation.cpp ThreadFixIntensity.cpp ThreadPassThrough.cpp ThreadPCD2PCD.cpp ThreadPCD2TXT.cpp ThreadTXT2PCD.cpp ThreadUnionFind.cpp UnionFind.cpp .\GeneratedFiles\qrc_PCLVisualizer.cpp
+         CSVOperator.cpp
+         dlgAddPointCloud.cpp
+         dlgBinarySignal.cpp
+         dlgIntensityFix.cpp
+         dlgKdTreeCluster.cpp
+         dlgLAS2TXT.cpp
+         dlgPassThroughFilter.cpp
+         dlgPCD2TXT.cpp
+         dlgPCDBinary2PCDAscii.cpp
+         dlgTxt2PCD.cpp
+         main.cpp
+         PCLViewer.cpp
+         ThreadBinarySignal.cpp
+         ThreadBuildSingulation.cpp
+     1>D:\PCL1.8_MSVC2013\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (CSVOperator.cpp)
+     1>D:\PCL1.8_MSVC2013\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (CSVOperator.cpp)
+     1>D:\PCL1.8_MSVC2013\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (main.cpp)
+     1>D:\PCL1.8_MSVC2013\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (main.cpp)
+     1>D:\PCL1.8_MSVC2013\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PCLViewer.cpp)
+     1>D:\PCL1.8_MSVC2013\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PCLViewer.cpp)
+     1>D:\VS2013\VC\include\xmemory(348): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (ThreadBuildSingulation.cpp)
+                 D:\VS2013\VC\include\xmemory(333) : 参见“std::_Uninitialized_copy0”的声明
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(191): 参见对正在编译的函数 模板 实例化“_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)”的引用
+                 with
+                 [
+                     _FwdIt=boost::shared_ptr<void> *
+         ,            I=boost::shared_ptr<void> *
+         ,            _InIt=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(281): 编译类 模板 成员函数“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”时
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(303): 参见对正在编译的函数 模板 实例化“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(53): 参见对正在编译的类 模板 实例化“boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(55): 参见对正在编译的类 模板 实例化“boost::signals2::detail::garbage_collecting_lock<Mutex>”的引用
+     1>D:\VS2013\VC\include\xmemory(348): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (CSVOperator.cpp)
+                 D:\VS2013\VC\include\xmemory(333) : 参见“std::_Uninitialized_copy0”的声明
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(191): 参见对正在编译的函数 模板 实例化“_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)”的引用
+                 with
+                 [
+                     _FwdIt=boost::shared_ptr<void> *
+         ,            I=boost::shared_ptr<void> *
+         ,            _InIt=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(281): 编译类 模板 成员函数“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”时
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(303): 参见对正在编译的函数 模板 实例化“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(53): 参见对正在编译的类 模板 实例化“boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(55): 参见对正在编译的类 模板 实例化“boost::signals2::detail::garbage_collecting_lock<Mutex>”的引用
+     1>f:\project_cplus\pclclustering\pclvisualizer\threadbuildsingulation.cpp(121): warning C4700: 使用了未初始化的局部变量“sum”
+         ThreadFixIntensity.cpp
+         ThreadPassThrough.cpp
+         ThreadPCD2PCD.cpp
+     1>D:\VS2013\VC\include\xutility(2715): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (main.cpp)
+                 D:\VS2013\VC\include\xutility(2701) : 参见“std::_Fill_n”的声明
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/random/detail/polynomial.hpp(114): 参见对正在编译的函数 模板 实例化“_OutIt std::fill_n<boost::random::detail::polynomial_ops::digit_t*,size_t,boost::random::detail::polynomial_ops::digit_t>(_OutIt,_Diff,const _Ty &)”的引用
+                 with
+                 [
+                     _OutIt=boost::random::detail::polynomial_ops::digit_t *
+         ,            _Diff=size_t
+         ,            _Ty=boost::random::detail::polynomial_ops::digit_t
+                 ]
+     1>D:\VS2013\VC\include\xutility(2715): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (PCLViewer.cpp)
+                 D:\VS2013\VC\include\xutility(2701) : 参见“std::_Fill_n”的声明
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/random/detail/polynomial.hpp(114): 参见对正在编译的函数 模板 实例化“_OutIt std::fill_n<boost::random::detail::polynomial_ops::digit_t*,size_t,boost::random::detail::polynomial_ops::digit_t>(_OutIt,_Diff,const _Ty &)”的引用
+                 with
+                 [
+                     _OutIt=boost::random::detail::polynomial_ops::digit_t *
+         ,            _Diff=size_t
+         ,            _Ty=boost::random::detail::polynomial_ops::digit_t
+                 ]
+     1>D:\VS2013\VC\include\xmemory(348): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (main.cpp)
+                 D:\VS2013\VC\include\xmemory(333) : 参见“std::_Uninitialized_copy0”的声明
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(191): 参见对正在编译的函数 模板 实例化“_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)”的引用
+                 with
+                 [
+                     _FwdIt=boost::shared_ptr<void> *
+         ,            I=boost::shared_ptr<void> *
+         ,            _InIt=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(281): 编译类 模板 成员函数“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”时
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(303): 参见对正在编译的函数 模板 实例化“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(53): 参见对正在编译的类 模板 实例化“boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(55): 参见对正在编译的类 模板 实例化“boost::signals2::detail::garbage_collecting_lock<Mutex>”的引用
+     1>D:\VS2013\VC\include\xmemory(348): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (ThreadFixIntensity.cpp)
+                 D:\VS2013\VC\include\xmemory(333) : 参见“std::_Uninitialized_copy0”的声明
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(191): 参见对正在编译的函数 模板 实例化“_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)”的引用
+                 with
+                 [
+                     _FwdIt=boost::shared_ptr<void> *
+         ,            I=boost::shared_ptr<void> *
+         ,            _InIt=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(281): 编译类 模板 成员函数“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”时
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(303): 参见对正在编译的函数 模板 实例化“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(53): 参见对正在编译的类 模板 实例化“boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(55): 参见对正在编译的类 模板 实例化“boost::signals2::detail::garbage_collecting_lock<Mutex>”的引用
+     1>D:\VS2013\VC\include\xmemory(348): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (PCLViewer.cpp)
+                 D:\VS2013\VC\include\xmemory(333) : 参见“std::_Uninitialized_copy0”的声明
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(191): 参见对正在编译的函数 模板 实例化“_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)”的引用
+                 with
+                 [
+                     _FwdIt=boost::shared_ptr<void> *
+         ,            I=boost::shared_ptr<void> *
+         ,            _InIt=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(281): 编译类 模板 成员函数“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”时
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(303): 参见对正在编译的函数 模板 实例化“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(53): 参见对正在编译的类 模板 实例化“boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(55): 参见对正在编译的类 模板 实例化“boost::signals2::detail::garbage_collecting_lock<Mutex>”的引用
+         ThreadPCD2TXT.cpp
+     1>D:\VS2013\VC\include\xmemory(348): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (ThreadPCD2PCD.cpp)
+                 D:\VS2013\VC\include\xmemory(333) : 参见“std::_Uninitialized_copy0”的声明
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(191): 参见对正在编译的函数 模板 实例化“_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)”的引用
+                 with
+                 [
+                     _FwdIt=boost::shared_ptr<void> *
+         ,            I=boost::shared_ptr<void> *
+         ,            _InIt=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(281): 编译类 模板 成员函数“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”时
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(303): 参见对正在编译的函数 模板 实例化“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(53): 参见对正在编译的类 模板 实例化“boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(55): 参见对正在编译的类 模板 实例化“boost::signals2::detail::garbage_collecting_lock<Mutex>”的引用
+         ThreadTXT2PCD.cpp
+         ThreadUnionFind.cpp
+         UnionFind.cpp
+         qrc_PCLVisualizer.cpp
+     1>D:\VS2013\VC\include\xmemory(348): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (ThreadPCD2TXT.cpp)
+                 D:\VS2013\VC\include\xmemory(333) : 参见“std::_Uninitialized_copy0”的声明
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(191): 参见对正在编译的函数 模板 实例化“_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)”的引用
+                 with
+                 [
+                     _FwdIt=boost::shared_ptr<void> *
+         ,            I=boost::shared_ptr<void> *
+         ,            _InIt=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(281): 编译类 模板 成员函数“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”时
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(303): 参见对正在编译的函数 模板 实例化“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(53): 参见对正在编译的类 模板 实例化“boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(55): 参见对正在编译的类 模板 实例化“boost::signals2::detail::garbage_collecting_lock<Mutex>”的引用
+     1>D:\VS2013\VC\include\xmemory(348): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (ThreadTXT2PCD.cpp)
+                 D:\VS2013\VC\include\xmemory(333) : 参见“std::_Uninitialized_copy0”的声明
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(191): 参见对正在编译的函数 模板 实例化“_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)”的引用
+                 with
+                 [
+                     _FwdIt=boost::shared_ptr<void> *
+         ,            I=boost::shared_ptr<void> *
+         ,            _InIt=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(281): 编译类 模板 成员函数“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”时
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(303): 参见对正在编译的函数 模板 实例化“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(53): 参见对正在编译的类 模板 实例化“boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(55): 参见对正在编译的类 模板 实例化“boost::signals2::detail::garbage_collecting_lock<Mutex>”的引用
+     1>D:\VS2013\VC\include\xmemory(348): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (ThreadUnionFind.cpp)
+                 D:\VS2013\VC\include\xmemory(333) : 参见“std::_Uninitialized_copy0”的声明
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(191): 参见对正在编译的函数 模板 实例化“_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)”的引用
+                 with
+                 [
+                     _FwdIt=boost::shared_ptr<void> *
+         ,            I=boost::shared_ptr<void> *
+         ,            _InIt=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(281): 编译类 模板 成员函数“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”时
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(303): 参见对正在编译的函数 模板 实例化“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(53): 参见对正在编译的类 模板 实例化“boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(55): 参见对正在编译的类 模板 实例化“boost::signals2::detail::garbage_collecting_lock<Mutex>”的引用
+     1>f:\project_cplus\pclclustering\pclvisualizer\threadunionfind.cpp(144): warning C4700: 使用了未初始化的局部变量“pointsNum”
+         D:\VS2013\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\5.7\msvc2013_64\include /I.\GeneratedFiles\Debug\. /ID:\Qt\5.7\msvc2013_64\include\QtCore /ID:\Qt\5.7\msvc2013_64\include\QtGui /ID:\Qt\5.7\msvc2013_64\include\QtANGLE /ID:\Qt\5.7\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /MP /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt .\GeneratedFiles\Debug\moc_PCLViewer.cpp .\GeneratedFiles\Debug\moc_dlgLAS2TXT.cpp .\GeneratedFiles\Debug\moc_ThreadPassThrough.cpp .\GeneratedFiles\Debug\moc_dlgPCDBinary2PCDAscii.cpp .\GeneratedFiles\Debug\moc_ThreadPCD2PCD.cpp .\GeneratedFiles\Debug\moc_dlgKdTreeCluster.cpp .\GeneratedFiles\Debug\moc_dlgAddPointCloud.cpp .\GeneratedFiles\Debug\moc_dlgBinarySignal.cpp .\GeneratedFiles\Debug\moc_ThreadBinarySignal.cpp .\GeneratedFiles\Debug\moc_ThreadBuildSingulation.cpp .\GeneratedFiles\Debug\moc_ThreadUnionFind.cpp .\GeneratedFiles\Debug\moc_ThreadPCD2TXT.cpp .\GeneratedFiles\Debug\moc_ThreadTXT2PCD.cpp .\GeneratedFiles\Debug\moc_ThreadFixIntensity.cpp .\GeneratedFiles\Debug\moc_CSVOperator.cpp .\GeneratedFiles\Debug\moc_dlgPassThroughFilter.cpp .\GeneratedFiles\Debug\moc_dlgIntensityFix.cpp .\GeneratedFiles\Debug\moc_dlgTxt2PCD.cpp .\GeneratedFiles\Debug\moc_dlgPCD2TXT.cpp
+         moc_PCLViewer.cpp
+         moc_dlgLAS2TXT.cpp
+         moc_ThreadPassThrough.cpp
+         moc_dlgPCDBinary2PCDAscii.cpp
+         moc_ThreadPCD2PCD.cpp
+         moc_dlgKdTreeCluster.cpp
+         moc_dlgAddPointCloud.cpp
+         moc_dlgBinarySignal.cpp
+         moc_ThreadBinarySignal.cpp
+         moc_ThreadBuildSingulation.cpp
+         moc_ThreadUnionFind.cpp
+         moc_ThreadPCD2TXT.cpp
+         moc_ThreadTXT2PCD.cpp
+         moc_ThreadFixIntensity.cpp
+         moc_CSVOperator.cpp
+         moc_dlgPassThroughFilter.cpp
+         moc_dlgIntensityFix.cpp
+         moc_dlgTxt2PCD.cpp
+     1>D:\PCL1.8_MSVC2013\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (.\GeneratedFiles\Debug\moc_PCLViewer.cpp)
+         moc_dlgPCD2TXT.cpp
+     1>D:\PCL1.8_MSVC2013\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (.\GeneratedFiles\Debug\moc_PCLViewer.cpp)
+     1>D:\PCL1.8_MSVC2013\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (.\GeneratedFiles\Debug\moc_CSVOperator.cpp)
+     1>D:\PCL1.8_MSVC2013\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (.\GeneratedFiles\Debug\moc_CSVOperator.cpp)
+     1>D:\VS2013\VC\include\xmemory(348): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (.\GeneratedFiles\Debug\moc_ThreadFixIntensity.cpp)
+                 D:\VS2013\VC\include\xmemory(333) : 参见“std::_Uninitialized_copy0”的声明
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(191): 参见对正在编译的函数 模板 实例化“_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)”的引用
+                 with
+                 [
+                     _FwdIt=boost::shared_ptr<void> *
+         ,            I=boost::shared_ptr<void> *
+         ,            _InIt=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(281): 编译类 模板 成员函数“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”时
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(303): 参见对正在编译的函数 模板 实例化“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(53): 参见对正在编译的类 模板 实例化“boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(55): 参见对正在编译的类 模板 实例化“boost::signals2::detail::garbage_collecting_lock<Mutex>”的引用
+     1>D:\VS2013\VC\include\xutility(2715): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (.\GeneratedFiles\Debug\moc_PCLViewer.cpp)
+                 D:\VS2013\VC\include\xutility(2701) : 参见“std::_Fill_n”的声明
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/random/detail/polynomial.hpp(114): 参见对正在编译的函数 模板 实例化“_OutIt std::fill_n<boost::random::detail::polynomial_ops::digit_t*,size_t,boost::random::detail::polynomial_ops::digit_t>(_OutIt,_Diff,const _Ty &)”的引用
+                 with
+                 [
+                     _OutIt=boost::random::detail::polynomial_ops::digit_t *
+         ,            _Diff=size_t
+         ,            _Ty=boost::random::detail::polynomial_ops::digit_t
+                 ]
+     1>D:\VS2013\VC\include\xmemory(348): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (.\GeneratedFiles\Debug\moc_CSVOperator.cpp)
+                 D:\VS2013\VC\include\xmemory(333) : 参见“std::_Uninitialized_copy0”的声明
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(191): 参见对正在编译的函数 模板 实例化“_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)”的引用
+                 with
+                 [
+                     _FwdIt=boost::shared_ptr<void> *
+         ,            I=boost::shared_ptr<void> *
+         ,            _InIt=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(281): 编译类 模板 成员函数“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”时
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(303): 参见对正在编译的函数 模板 实例化“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(53): 参见对正在编译的类 模板 实例化“boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(55): 参见对正在编译的类 模板 实例化“boost::signals2::detail::garbage_collecting_lock<Mutex>”的引用
+     1>D:\VS2013\VC\include\xmemory(348): warning C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (.\GeneratedFiles\Debug\moc_PCLViewer.cpp)
+                 D:\VS2013\VC\include\xmemory(333) : 参见“std::_Uninitialized_copy0”的声明
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(191): 参见对正在编译的函数 模板 实例化“_FwdIt std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)”的引用
+                 with
+                 [
+                     _FwdIt=boost::shared_ptr<void> *
+         ,            I=boost::shared_ptr<void> *
+         ,            _InIt=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(178): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(204): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(288): 参见对正在编译的函数 模板 实例化“void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+         ,            I=boost::shared_ptr<void> *
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(281): 编译类 模板 成员函数“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”时
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/detail/auto_buffer.hpp(303): 参见对正在编译的函数 模板 实例化“boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::false_type &)”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(53): 参见对正在编译的类 模板 实例化“boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>”的引用
+                 with
+                 [
+                     T=boost::shared_ptr<void>
+                 ]
+                 D:\PCL1.8_MSVC2013\3rdParty\Boost\include\boost-1_59\boost/signals2/connection.hpp(55): 参见对正在编译的类 模板 实例化“boost::signals2::detail::garbage_collecting_lock<Mutex>”的引用
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"x64\Debug\PCLVisualizer.res" PCLVisualizer.rc 
+       Link:
+         D:\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Project_CPlus\PCLCLustering\x64\Debug\\PCLVisualizer.exe" /NOLOGO /LIBPATH:D:\Qt\5.7\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib pcl_apps_debug.lib pcl_common_debug.lib pcl_features_debug.lib pcl_filters_debug.lib pcl_io_ply_debug.lib pcl_io_debug.lib pcl_kdtree_debug.lib pcl_keypoints_debug.lib pcl_ml_debug.lib pcl_octree_debug.lib pcl_outofcore_debug.lib pcl_people_debug.lib pcl_recognition_debug.lib pcl_registration_debug.lib pcl_sample_consensus_debug.lib pcl_search_debug.lib pcl_segmentation_debug.lib pcl_simulation_debug.lib pcl_stereo_debug.lib pcl_surface_debug.lib pcl_tracking_debug.lib pcl_visualization_debug.lib "libboost_atomic-vc120-mt-gd-1_59.lib" "libboost_chrono-vc120-mt-gd-1_59.lib" "libboost_container-vc120-mt-gd-1_59.lib" "libboost_context-vc120-mt-gd-1_59.lib" "libboost_coroutine-vc120-mt-gd-1_59.lib" "libboost_date_time-vc120-mt-gd-1_59.lib" "libboost_exception-vc120-mt-gd-1_59.lib" "libboost_filesystem-vc120-mt-gd-1_59.lib" "libboost_graph-vc120-mt-gd-1_59.lib" "libboost_iostreams-vc120-mt-gd-1_59.lib" "libboost_locale-vc120-mt-gd-1_59.lib" "libboost_log-vc120-mt-gd-1_59.lib" "libboost_log_setup-vc120-mt-gd-1_59.lib" "libboost_math_c99-vc120-mt-gd-1_59.lib" "libboost_math_c99f-vc120-mt-gd-1_59.lib" "libboost_math_c99l-vc120-mt-gd-1_59.lib" "libboost_math_tr1-vc120-mt-gd-1_59.lib" "libboost_math_tr1f-vc120-mt-gd-1_59.lib" "libboost_math_tr1l-vc120-mt-gd-1_59.lib" "libboost_mpi-vc120-mt-gd-1_59.lib" "libboost_prg_exec_monitor-vc120-mt-gd-1_59.lib" "libboost_program_options-vc120-mt-gd-1_59.lib" "libboost_random-vc120-mt-gd-1_59.lib" "libboost_regex-vc120-mt-gd-1_59.lib" "libboost_serialization-vc120-mt-gd-1_59.lib" "libboost_signals-vc120-mt-gd-1_59.lib" "libboost_system-vc120-mt-gd-1_59.lib" "libboost_test_exec_monitor-vc120-mt-gd-1_59.lib" "libboost_thread-vc120-mt-gd-1_59.lib" "libboost_timer-vc120-mt-gd-1_59.lib" "libboost_unit_test_framework-vc120-mt-gd-1_59.lib" "libboost_wave-vc120-mt-gd-1_59.lib" "libboost_wserialization-vc120-mt-gd-1_59.lib" "flann-gd.lib" "flann_cpp_s-gd.lib" "flann_s-gd.lib" "qhull-gd.lib" "qhullcpp-gd.lib" "qhullstatic-gd.lib" "qhullstatic_r-gd.lib" "qhull_p-gd.lib" "qhull_r-gd.lib" "vtkalglib-7.0-gd.lib" "vtkChartsCore-7.0-gd.lib" "vtkCommonColor-7.0-gd.lib" "vtkCommonComputationalGeometry-7.0-gd.lib" "vtkCommonCore-7.0-gd.lib" "vtkCommonDataModel-7.0-gd.lib" "vtkCommonExecutionModel-7.0-gd.lib" "vtkCommonMath-7.0-gd.lib" "vtkCommonMisc-7.0-gd.lib" "vtkCommonSystem-7.0-gd.lib" "vtkCommonTransforms-7.0-gd.lib" "vtkDICOMParser-7.0-gd.lib" "vtkDomainsChemistry-7.0-gd.lib" "vtkDomainsChemistryOpenGL2-7.0-gd.lib" "vtkexoIIc-7.0-gd.lib" "vtkexpat-7.0-gd.lib" "vtkFiltersAMR-7.0-gd.lib" "vtkFiltersCore-7.0-gd.lib" "vtkFiltersExtraction-7.0-gd.lib" "vtkFiltersFlowPaths-7.0-gd.lib" "vtkFiltersGeneral-7.0-gd.lib" "vtkFiltersGeneric-7.0-gd.lib" "vtkFiltersGeometry-7.0-gd.lib" "vtkFiltersHybrid-7.0-gd.lib" "vtkFiltersHyperTree-7.0-gd.lib" "vtkFiltersImaging-7.0-gd.lib" "vtkFiltersModeling-7.0-gd.lib" "vtkFiltersParallel-7.0-gd.lib" "vtkFiltersParallelImaging-7.0-gd.lib" "vtkFiltersProgrammable-7.0-gd.lib" "vtkFiltersSelection-7.0-gd.lib" "vtkFiltersSMP-7.0-gd.lib" "vtkFiltersSources-7.0-gd.lib" "vtkFiltersStatistics-7.0-gd.lib" "vtkFiltersTexture-7.0-gd.lib" "vtkFiltersVerdict-7.0-gd.lib" "vtkfreetype-7.0-gd.lib" "vtkGeovisCore-7.0-gd.lib" "vtkglew-7.0-gd.lib" "vtkGUISupportQt-7.0-gd.lib" "vtkGUISupportQtSQL-7.0-gd.lib" "vtkhdf5-7.0-gd.lib" "vtkhdf5_hl-7.0-gd.lib" "vtkImagingColor-7.0-gd.lib" "vtkImagingCore-7.0-gd.lib" "vtkImagingFourier-7.0-gd.lib" "vtkImagingGeneral-7.0-gd.lib" "vtkImagingHybrid-7.0-gd.lib" "vtkImagingMath-7.0-gd.lib" "vtkImagingMorphological-7.0-gd.lib" "vtkImagingSources-7.0-gd.lib" "vtkImagingStatistics-7.0-gd.lib" "vtkImagingStencil-7.0-gd.lib" "vtkInfovisCore-7.0-gd.lib" "vtkInfovisLayout-7.0-gd.lib" "vtkInteractionImage-7.0-gd.lib" "vtkInteractionStyle-7.0-gd.lib" "vtkInteractionWidgets-7.0-gd.lib" "vtkIOAMR-7.0-gd.lib" "vtkIOCore-7.0-gd.lib" "vtkIOEnSight-7.0-gd.lib" "vtkIOExodus-7.0-gd.lib" "vtkIOExport-7.0-gd.lib" "vtkIOGeometry-7.0-gd.lib" "vtkIOImage-7.0-gd.lib" "vtkIOImport-7.0-gd.lib" "vtkIOInfovis-7.0-gd.lib" "vtkIOLegacy-7.0-gd.lib" "vtkIOLSDyna-7.0-gd.lib" "vtkIOMINC-7.0-gd.lib" "vtkIOMovie-7.0-gd.lib" "vtkIONetCDF-7.0-gd.lib" "vtkIOParallel-7.0-gd.lib" "vtkIOParallelXML-7.0-gd.lib" "vtkIOPLY-7.0-gd.lib" "vtkIOSQL-7.0-gd.lib" "vtkIOVideo-7.0-gd.lib" "vtkIOXML-7.0-gd.lib" "vtkIOXMLParser-7.0-gd.lib" "vtkjpeg-7.0-gd.lib" "vtkjsoncpp-7.0-gd.lib" "vtklibxml2-7.0-gd.lib" "vtkmetaio-7.0-gd.lib" "vtkNetCDF-7.0-gd.lib" "vtkNetCDF_cxx-7.0-gd.lib" "vtkoggtheora-7.0-gd.lib" "vtkParallelCore-7.0-gd.lib" "vtkpng-7.0-gd.lib" "vtkproj4-7.0-gd.lib" "vtkRenderingAnnotation-7.0-gd.lib" "vtkRenderingContext2D-7.0-gd.lib" "vtkRenderingContextOpenGL2-7.0-gd.lib" "vtkRenderingCore-7.0-gd.lib" "vtkRenderingFreeType-7.0-gd.lib" "vtkRenderingImage-7.0-gd.lib" "vtkRenderingLabel-7.0-gd.lib" "vtkRenderingLOD-7.0-gd.lib" "vtkRenderingOpenGL2-7.0-gd.lib" "vtkRenderingQt-7.0-gd.lib" "vtkRenderingVolume-7.0-gd.lib" "vtkRenderingVolumeOpenGL2-7.0-gd.lib" "vtksqlite-7.0-gd.lib" "vtksys-7.0-gd.lib" "vtktiff-7.0-gd.lib" "vtkverdict-7.0-gd.lib" "vtkViewsContext2D-7.0-gd.lib" "vtkViewsCore-7.0-gd.lib" "vtkViewsInfovis-7.0-gd.lib" "vtkViewsQt-7.0-gd.lib" "vtkzlib-7.0-gd.lib" opencv_ml2413d.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_objdetect2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_nonfree2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_videostab2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Project_CPlus\PCLCLustering\x64\Debug\PCLVisualizer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Project_CPlus\PCLCLustering\x64\Debug\PCLVisualizer.lib" /MACHINE:X64 x64\Debug\PCLVisualizer.res
+         x64\Debug\CSVOperator.obj
+         x64\Debug\dlgAddPointCloud.obj
+         x64\Debug\dlgBinarySignal.obj
+         x64\Debug\dlgIntensityFix.obj
+         x64\Debug\dlgKdTreeCluster.obj
+         x64\Debug\dlgLAS2TXT.obj
+         x64\Debug\dlgPassThroughFilter.obj
+         x64\Debug\dlgPCD2TXT.obj
+         x64\Debug\dlgPCDBinary2PCDAscii.obj
+         x64\Debug\dlgTxt2PCD.obj
+         x64\Debug\main.obj
+         x64\Debug\PCLViewer.obj
+         x64\Debug\ThreadBinarySignal.obj
+         x64\Debug\ThreadBuildSingulation.obj
+         x64\Debug\ThreadFixIntensity.obj
+         x64\Debug\ThreadPassThrough.obj
+         x64\Debug\ThreadPCD2PCD.obj
+         x64\Debug\ThreadPCD2TXT.obj
+         x64\Debug\ThreadTXT2PCD.obj
+         x64\Debug\ThreadUnionFind.obj
+         x64\Debug\UnionFind.obj
+         x64\Debug\moc_PCLViewer.obj
+         x64\Debug\moc_dlgLAS2TXT.obj
+         x64\Debug\moc_ThreadPassThrough.obj
+         x64\Debug\moc_dlgPCDBinary2PCDAscii.obj
+         x64\Debug\moc_ThreadPCD2PCD.obj
+         x64\Debug\moc_dlgKdTreeCluster.obj
+         x64\Debug\moc_dlgAddPointCloud.obj
+         x64\Debug\moc_dlgBinarySignal.obj
+         x64\Debug\moc_ThreadBinarySignal.obj
+         x64\Debug\moc_ThreadBuildSingulation.obj
+         x64\Debug\moc_ThreadUnionFind.obj
+         x64\Debug\moc_ThreadPCD2TXT.obj
+         x64\Debug\moc_ThreadTXT2PCD.obj
+         x64\Debug\moc_ThreadFixIntensity.obj
+         x64\Debug\moc_CSVOperator.obj
+         x64\Debug\moc_dlgPassThroughFilter.obj
+         x64\Debug\moc_dlgIntensityFix.obj
+         x64\Debug\moc_dlgTxt2PCD.obj
+         x64\Debug\moc_dlgPCD2TXT.obj
+         x64\Debug\qrc_PCLVisualizer.obj
+     1>opencv_highgui2413d.lib(opencv_highgui2413d.dll) : fatal error LNK1112: 模块计算机类型“X86”与目标计算机类型“x64”冲突
+     1>已完成生成项目“F:\Project_CPlus\PCLCLustering\PCLVisualizer\PCLVisualizer.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:03:26.41

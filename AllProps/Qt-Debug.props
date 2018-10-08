@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">    
+      <PropertyGroup>    
+            <ExecutablePath>D:\Qt\5.7\msvc2013_64\bin;$(ExecutablePath)</ExecutablePath>    
+    </PropertyGroup>    
+    <PropertyGroup>    
+            <IncludePath>    
+                D:\Qt\5.7\msvc2013_64\include;    
+                D:\Qt\5.7\msvc2013_64\include\QtCore;    
+                D:\Qt\5.7\msvc2013_64\include\QtGui;    
+                D:\Qt\5.7\msvc2013_64\QtMultimedia;    
+                D:\Qt\5.7\msvc2013_64\QtNetwork;    
+                D:\Qt\5.7\msvc2013_64\QtOpenGL;    
+                D:\Qt\5.7\msvc2013_64\QtOpenVG;    
+                D:\Qt\5.7\msvc2013_64\QtScript;    
+                D:\Qt\5.7\msvc2013_64\QtScriptTools;    
+                D:\Qt\5.7\msvc2013_64\QtSql;    
+                D:\Qt\5.7\msvc2013_64\QtSvg;    
+                D:\Qt\5.7\msvc2013_64\QtWebKit;    
+                D:\Qt\5.7\msvc2013_64\QtXml;    
+                D:\Qt\5.7\msvc2013_64\QtXmlPatterns;    
+                D:\Qt\5.7\msvc2013_64\QtDeclarative;    
+                D:\Qt\5.7\msvc2013_64\Phonon;    
+                D:\Qt\5.7\msvc2013_64\Qt3Support;    
+                D:\Qt\5.7\msvc2013_64\QtDesigner;    
+                D:\Qt\5.7\msvc2013_64\QtUiTools;    
+                D:\Qt\5.7\msvc2013_64\QtHelp;    
+                D:\Qt\5.7\msvc2013_64\QtTest;    
+                D:\Qt\5.7\msvc2013_64\QAxContainer;    
+                D:\Qt\5.7\msvc2013_64\QAxServer;    
+                D:\Qt\5.7\msvc2013_64\src;    
+                $(IncludePath)    
+        </IncludePath>    
+</PropertyGroup>    
+<PropertyGroup>    
+    <ReferencePath>D:\Qt\5.7\msvc2013_64\lib;$(ReferencePath)</ReferencePath>    
+</PropertyGroup>    
+<PropertyGroup>    
+    <LibraryPath>D:\Qt\5.7\msvc2013_64\lib;$(LibraryPath)</LibraryPath>    
+</PropertyGroup>    
+<PropertyGroup>    
+    <SourcePath>D:\Qt\5.7\msvc2013_64\src;$(SourcePath)</SourcePath>    
+</PropertyGroup>    
+</Project>    

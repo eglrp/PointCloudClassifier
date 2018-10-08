@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PCLViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgPassThroughFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgIntensityFix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadFixIntensity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgTxt2PCD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadTXT2PCD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgPCD2TXT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPCD2TXT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadUnionFind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnionFind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgLAS2TXT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPassThrough.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgPCDBinary2PCDAscii.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPCD2PCD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgKdTreeCluster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgAddPointCloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgBinarySignal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadBinarySignal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadBuildSingulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgTestDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgMultiViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlgCopyFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadFilterVegetation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadRGBResampling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadLoadingCloudPoints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadCalcPointCloudMsg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadSaveAs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnionFind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiyXYZRGBPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPointType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PCLVisualizer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="PCLViewer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dlgPassThroughFilter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dlgIntensityFix.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadFixIntensity.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dlgTxt2PCD.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadTXT2PCD.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dlgPCD2TXT.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadPCD2TXT.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadUnionFind.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dlgLAS2TXT.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadPassThrough.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dlgPCDBinary2PCDAscii.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadPCD2PCD.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dlgKdTreeCluster.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dlgAddPointCloud.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dlgBinarySignal.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadBinarySignal.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadBuildSingulation.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dlgTestDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dlgMultiViewer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dlgCopyFile.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadFilterVegetation.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadRGBResampling.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadLoadingCloudPoints.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadCalcPointCloudMsg.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThreadSaveAs.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="PCLVisualizer.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="PCLViewer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dlgPassThroughFilter.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dlgIntensityFix.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dlgTxt2PCD.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dlgPCD2TXT.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dlgLAS2TXT.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dlgPCDBinary2PCDAscii.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dlgKdTreeCluster.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dlgAddPointCloud.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dlgBinarySignal.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dlgTestDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dlgMultiViewer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dlgCopyFile.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>

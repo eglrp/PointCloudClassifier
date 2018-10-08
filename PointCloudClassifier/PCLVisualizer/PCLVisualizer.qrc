@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/about.png</file>
+        <file>images/build.png</file>
+        <file>images/clip.png</file>
+        <file>images/cloud.png</file>
+        <file>images/coordinate.png</file>
+        <file>images/copy.png</file>
+        <file>images/cube.png</file>
+        <file>images/exchange.png</file>
+        <file>images/filter.png</file>
+        <file>images/fullscreen.png</file>
+        <file>images/grass.png</file>
+        <file>images/help.png</file>
+        <file>images/logo.png</file>
+        <file>images/multiviewer1.png</file>
+        <file>images/multiviewer2.png</file>
+        <file>images/multiviewer4.png</file>
+        <file>images/next.png</file>
+        <file>images/openfile.png</file>
+        <file>images/pre.png</file>
+        <file>images/road.png</file>
+        <file>images/saveas.png</file>
+        <file>images/screenshot.png</file>
+        <file>images/setting.png</file>
+        <file>images/squarestructure.png</file>
+        <file>images/trademark1.png</file>
+        <file>images/tree.png</file>
+        <file>images/view-off.png</file>
+        <file>images/view-on.png</file>
+        <file>images/water.png</file>
+        <file>images/zoom.png</file>
+        <file>images/zoom-in.png</file>
+        <file>images/zoom-out.png</file>
+        <file>images/beta.png</file>
+    </qresource>
+</RCC>

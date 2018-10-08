@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PCLViewer</class>
+ <widget class="QMainWindow" name="PCLViewer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1707</width>
+    <height>990</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>5000</width>
+    <height>5000</height>
+   </size>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::StrongFocus</enum>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>PCLViewer</string>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_6">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::South</enum>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>主视窗</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QVTKWidget" name="qvtkWidget1"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>对比视窗 1x2</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="0" colspan="2">
+         <widget class="QVTKWidget" name="qvtkWidget2"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>对比视窗 2x2</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0" colspan="2">
+         <widget class="QVTKWidget" name="qvtkWidget3"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <layout class="QGridLayout" name="gridLayout_8">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>当前进度：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QProgressBar" name="proBar">
+        <property name="value">
+         <number>24</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1707</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_F">
+    <property name="title">
+     <string>文件(&amp;F)</string>
+    </property>
+    <addaction name="action_open"/>
+    <addaction name="action_saveas"/>
+    <addaction name="separator"/>
+    <addaction name="action_exit"/>
+   </widget>
+   <widget class="QMenu" name="menu_T">
+    <property name="title">
+     <string>工具(&amp;T)</string>
+    </property>
+    <widget class="QMenu" name="menuKdTree">
+     <property name="title">
+      <string>KdTree</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/tree.png</normaloff>images/tree.png</iconset>
+     </property>
+     <addaction name="action_KNN"/>
+     <addaction name="action_Radius"/>
+    </widget>
+    <addaction name="action_zoomin"/>
+    <addaction name="action_zoomout"/>
+    <addaction name="action_zoom"/>
+    <addaction name="separator"/>
+    <addaction name="action_compress"/>
+    <addaction name="action_cluster"/>
+    <addaction name="menuKdTree"/>
+    <addaction name="action_voxel"/>
+    <addaction name="separator"/>
+    <addaction name="action_trim"/>
+    <addaction name="action_screenshot"/>
+    <addaction name="separator"/>
+    <addaction name="action_copy"/>
+   </widget>
+   <widget class="QMenu" name="menuAbnzghu">
+    <property name="title">
+     <string>帮助(&amp;H)</string>
+    </property>
+    <addaction name="action_setting"/>
+    <addaction name="action_about"/>
+    <addaction name="separator"/>
+    <addaction name="action_help"/>
+    <addaction name="action_beta"/>
+   </widget>
+   <widget class="QMenu" name="menu_C">
+    <property name="title">
+     <string>数据转换(&amp;C)</string>
+    </property>
+    <addaction name="action_las2txt"/>
+    <addaction name="action_txt2pcd"/>
+    <addaction name="action_pcdb2pcda"/>
+    <addaction name="action_pcd2txt"/>
+   </widget>
+   <widget class="QMenu" name="menu_L">
+    <property name="title">
+     <string>滤波(&amp;L)</string>
+    </property>
+    <addaction name="action_pass"/>
+    <addaction name="action_voxelgrid"/>
+    <addaction name="action_outliner"/>
+    <addaction name="action_project"/>
+    <addaction name="separator"/>
+    <addaction name="action_cloud2grayimage"/>
+    <addaction name="action_vegetation"/>
+   </widget>
+   <widget class="QMenu" name="menu_V">
+    <property name="title">
+     <string>视图(&amp;V)</string>
+    </property>
+    <addaction name="action_viewer1"/>
+    <addaction name="action_viewer2"/>
+    <addaction name="action_viewer4"/>
+    <addaction name="separator"/>
+    <addaction name="action_fullscreen"/>
+    <addaction name="action_coordinate"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>雷达数据处理(&amp;L)</string>
+    </property>
+    <addaction name="action_fixintensity_2"/>
+    <addaction name="action_kdtree_2"/>
+    <addaction name="action_binarysignal_2"/>
+    <addaction name="separator"/>
+    <addaction name="action_image2cloud"/>
+    <addaction name="action_rgbresampling"/>
+   </widget>
+   <addaction name="menu_F"/>
+   <addaction name="menu_T"/>
+   <addaction name="menu_L"/>
+   <addaction name="menu_V"/>
+   <addaction name="menu_C"/>
+   <addaction name="menu"/>
+   <addaction name="menuAbnzghu"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>工具栏</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_open"/>
+   <addaction name="action_saveas"/>
+   <addaction name="separator"/>
+   <addaction name="action_zoomin"/>
+   <addaction name="action_zoom"/>
+   <addaction name="action_zoomout"/>
+   <addaction name="separator"/>
+   <addaction name="action_viewer1"/>
+   <addaction name="action_viewer2"/>
+   <addaction name="action_viewer4"/>
+   <addaction name="separator"/>
+   <addaction name="action_pass"/>
+   <addaction name="action_trim"/>
+   <addaction name="action_screenshot"/>
+   <addaction name="separator"/>
+   <addaction name="action_txt2pcd"/>
+   <addaction name="action_beta"/>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget1">
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="floating">
+    <bool>false</bool>
+   </property>
+   <property name="windowTitle">
+    <string>点云文件列表</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents">
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="treeWidget">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::ClickFocus</enum>
+       </property>
+       <property name="showDropIndicator" stdset="0">
+        <bool>false</bool>
+       </property>
+       <column>
+        <property name="text">
+         <string notr="true">1</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget2">
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+   <property name="floating">
+    <bool>false</bool>
+   </property>
+   <property name="windowTitle">
+    <string>属性</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_2">
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="contextMenuPolicy">
+        <enum>Qt::CustomContextMenu</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget3">
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="windowTitle">
+    <string>控制台</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>8</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_8">
+    <layout class="QGridLayout" name="gridLayout_7">
+     <item row="0" column="0">
+      <widget class="QListView" name="listView">
+       <property name="mouseTracking">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <action name="action_open">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/openfile.png</normaloff>images/openfile.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开(&amp;p)</string>
+   </property>
+  </action>
+  <action name="action_voxel">
+   <property name="text">
+    <string>体素化</string>
+   </property>
+  </action>
+  <action name="action_KNN">
+   <property name="text">
+    <string>KNN</string>
+   </property>
+  </action>
+  <action name="action_Radius">
+   <property name="text">
+    <string>Radius</string>
+   </property>
+  </action>
+  <action name="action_cluster">
+   <property name="text">
+    <string>聚类</string>
+   </property>
+  </action>
+  <action name="action_compress">
+   <property name="text">
+    <string>压缩</string>
+   </property>
+  </action>
+  <action name="action_about">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/about.png</normaloff>images/about.png</iconset>
+   </property>
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+  <action name="action_las2txt">
+   <property name="text">
+    <string>LAS转TXT</string>
+   </property>
+  </action>
+  <action name="action_pass">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/filter.png</normaloff>images/filter.png</iconset>
+   </property>
+   <property name="text">
+    <string>PassThrough 直通滤波</string>
+   </property>
+  </action>
+  <action name="action_voxelgrid">
+   <property name="text">
+    <string>VoxelGrid 下采样</string>
+   </property>
+  </action>
+  <action name="action_outliner">
+   <property name="text">
+    <string>StatisicalOutlierRemoval 移除离群点</string>
+   </property>
+  </action>
+  <action name="action_project">
+   <property name="text">
+    <string>Projection 点云投影</string>
+   </property>
+  </action>
+  <action name="action66">
+   <property name="text">
+    <string>提取索引</string>
+   </property>
+  </action>
+  <action name="action_pcdb2pcda">
+   <property name="text">
+    <string>PCD(Binary)转PCD(ASCII)</string>
+   </property>
+  </action>
+  <action name="action_fixintensity">
+   <property name="text">
+    <string>反射强度修复</string>
+   </property>
+  </action>
+  <action name="action_txt2pcd">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/exchange.png</normaloff>images/exchange.png</iconset>
+   </property>
+   <property name="text">
+    <string>TXT转PCD(ASCII)</string>
+   </property>
+  </action>
+  <action name="action_pcd2txt">
+   <property name="text">
+    <string>PCD(ASCII)转TXT</string>
+   </property>
+  </action>
+  <action name="action_kdtree">
+   <property name="text">
+    <string>Kd-Tree 超聚类</string>
+   </property>
+  </action>
+  <action name="action_exit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="action_binarysignal">
+   <property name="text">
+    <string>二进制信号生成</string>
+   </property>
+  </action>
+  <action name="action_cloud2grayimage">
+   <property name="text">
+    <string>点云转灰度图</string>
+   </property>
+  </action>
+  <action name="action_zoomin">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/zoom-in.png</normaloff>images/zoom-in.png</iconset>
+   </property>
+   <property name="text">
+    <string>放大</string>
+   </property>
+  </action>
+  <action name="action_zoomout">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/zoom-out.png</normaloff>images/zoom-out.png</iconset>
+   </property>
+   <property name="text">
+    <string>缩小</string>
+   </property>
+  </action>
+  <action name="action_trim">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/clip.png</normaloff>images/clip.png</iconset>
+   </property>
+   <property name="text">
+    <string>点云裁剪</string>
+   </property>
+  </action>
+  <action name="action_viewer1">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/multiviewer1.png</normaloff>images/multiviewer1.png</iconset>
+   </property>
+   <property name="text">
+    <string>单视图</string>
+   </property>
+  </action>
+  <action name="action_viewer2">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/multiviewer2.png</normaloff>images/multiviewer2.png</iconset>
+   </property>
+   <property name="text">
+    <string>双视图</string>
+   </property>
+  </action>
+  <action name="action_viewer4">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/multiviewer4.png</normaloff>images/multiviewer4.png</iconset>
+   </property>
+   <property name="text">
+    <string>多视图</string>
+   </property>
+  </action>
+  <action name="action_fixintensity_2">
+   <property name="text">
+    <string>反射强度修复</string>
+   </property>
+  </action>
+  <action name="action_kdtree_2">
+   <property name="text">
+    <string>Kd-Tree 超聚类</string>
+   </property>
+  </action>
+  <action name="action_binarysignal_2">
+   <property name="text">
+    <string>二进制信号生成</string>
+   </property>
+  </action>
+  <action name="action_image2cloud">
+   <property name="text">
+    <string>图片转三维点云</string>
+   </property>
+  </action>
+  <action name="action_help">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/help.png</normaloff>images/help.png</iconset>
+   </property>
+   <property name="text">
+    <string>使用说明</string>
+   </property>
+  </action>
+  <action name="action_saveas">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/saveas.png</normaloff>images/saveas.png</iconset>
+   </property>
+   <property name="text">
+    <string>另存为</string>
+   </property>
+  </action>
+  <action name="action_zoom">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/zoom.png</normaloff>images/zoom.png</iconset>
+   </property>
+   <property name="text">
+    <string>还原</string>
+   </property>
+  </action>
+  <action name="action_screenshot">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/screenshot.png</normaloff>images/screenshot.png</iconset>
+   </property>
+   <property name="text">
+    <string>截图</string>
+   </property>
+  </action>
+  <action name="action_setting">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/setting.png</normaloff>images/setting.png</iconset>
+   </property>
+   <property name="text">
+    <string>设置</string>
+   </property>
+  </action>
+  <action name="action_copy">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/copy.png</normaloff>images/copy.png</iconset>
+   </property>
+   <property name="text">
+    <string>复制点云文件</string>
+   </property>
+  </action>
+  <action name="action_fullscreen">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/fullscreen.png</normaloff>images/fullscreen.png</iconset>
+   </property>
+   <property name="text">
+    <string>全屏显示</string>
+   </property>
+  </action>
+  <action name="action_coordinate">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/coordinate.png</normaloff>images/coordinate.png</iconset>
+   </property>
+   <property name="text">
+    <string>坐标系</string>
+   </property>
+  </action>
+  <action name="action_vegetation">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/grass.png</normaloff>images/grass.png</iconset>
+   </property>
+   <property name="text">
+    <string>植被提取</string>
+   </property>
+  </action>
+  <action name="action_beta">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/beta.png</normaloff>images/beta.png</iconset>
+   </property>
+   <property name="text">
+    <string>AlphaTest</string>
+   </property>
+  </action>
+  <action name="action_rgbresampling">
+   <property name="text">
+    <string>颜色重采样</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QVTKWidget</class>
+   <extends>QWidget</extends>
+   <header>QVTKWidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

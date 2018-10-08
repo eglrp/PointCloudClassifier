@@ -1,0 +1,22 @@
+﻿  Image2PointCloud.cpp
+Image2PointCloud.cpp(111): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Image2PointCloud.cpp(112): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Image2PointCloud.cpp(116): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Image2PointCloud.cpp(117): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Image2PointCloud.cpp(124): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Image2PointCloud.cpp(125): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Image2PointCloud.cpp(129): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Image2PointCloud.cpp(130): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Image2PointCloud.cpp(134): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Image2PointCloud.cpp(135): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Image2PointCloud.cpp(142): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Image2PointCloud.cpp(143): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Image2PointCloud.cpp(147): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Image2PointCloud.cpp(148): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Image2PointCloud.cpp(152): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Image2PointCloud.cpp(153): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+Image2PointCloud.cpp(158): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+Image2PointCloud.cpp(170): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  正在生成代码
+  已完成代码的生成
+  Image2PointCloud.vcxproj -> F:\Project_CPlus\PCLCLustering\x64\Release\Image2PointCloud.exe

@@ -1,0 +1,439 @@
+﻿  ThreadRGBResampling.cpp
+  ThreadUnionFind.cpp
+D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(342): warning C4291: “void *operator new(size_t,flann::PooledAllocator &)”: 未找到匹配的删除运算符；如果初始化引发异常，则不会释放内存 (ThreadUnionFind.cpp)
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(332): 编译类 模板 成员函数“void flann::KMeansIndex<flann::DummyDistance>::buildIndexImpl(void)”时
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/all_indices.h(89): 参见对正在编译的类 模板 实例化“flann::KMeansIndex<flann::DummyDistance>”的引用
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/all_indices.h(119): 参见对正在编译的类 模板 实例化“flann::needs_kdtree_distance<flann::KMeansIndex<flann::DummyDistance>>”的引用
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/all_indices.h(171): 参见对正在编译的类 模板 实例化“flann::valid_combination<flann::KMeansIndex,Distance,ElementType>”的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/flann.hpp(113): 参见对正在编译的函数 模板 实例化“flann::NNIndex<Distance> *flann::create_index_by_type<Distance>(const flann::flann_algorithm_t,const flann::Matrix<float> &,const flann::IndexParams &,const Distance &)”的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/flann.hpp(101): 编译类 模板 成员函数“flann::Index<Dist>::Index(const flann::Matrix<float> &,const flann::IndexParams &,Distance)”时
+          with
+          [
+              Dist=flann::L2_Simple<float>
+  ,            Distance=flann::L2_Simple<float>
+          ]
+          D:\PCL1.8_MSVC2013\include\pcl-1.8\pcl/kdtree/impl/kdtree_flann.hpp(126): 参见对正在编译的函数 模板 实例化“flann::Index<Dist>::Index(const flann::Matrix<float> &,const flann::IndexParams &,Distance)”的引用
+          with
+          [
+              Dist=flann::L2_Simple<float>
+  ,            Distance=flann::L2_Simple<float>
+          ]
+          D:\PCL1.8_MSVC2013\include\pcl-1.8\pcl/kdtree/impl/kdtree_flann.hpp(150): 参见对正在编译的类 模板 实例化“flann::Index<Dist>”的引用
+          with
+          [
+              Dist=flann::L2_Simple<float>
+          ]
+          D:\PCL1.8_MSVC2013\include\pcl-1.8\pcl/kdtree/impl/kdtree_flann.hpp(135): 编译类 模板 成员函数“int pcl::KdTreeFLANN<XYZ_IRHRGBBinary,flann::L2_Simple<float>>::nearestKSearch(const PointT &,int,std::vector<int,std::allocator<_Ty>> &,std::vector<float,std::allocator<float>> &) const”时
+          with
+          [
+              PointT=XYZ_IRHRGBBinary
+  ,            _Ty=int
+          ]
+          ThreadUnionFind.cpp(139): 参见对正在编译的函数 模板 实例化“int pcl::KdTreeFLANN<XYZ_IRHRGBBinary,flann::L2_Simple<float>>::nearestKSearch(const PointT &,int,std::vector<int,std::allocator<_Ty>> &,std::vector<float,std::allocator<float>> &) const”的引用
+          with
+          [
+              PointT=XYZ_IRHRGBBinary
+  ,            _Ty=int
+          ]
+          ThreadUnionFind.cpp(118): 参见对正在编译的类 模板 实例化“pcl::KdTreeFLANN<XYZ_IRHRGBBinary,flann::L2_Simple<float>>”的引用
+D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/hierarchical_clustering_index.h(308): warning C4291: “void *operator new(size_t,flann::PooledAllocator &)”: 未找到匹配的删除运算符；如果初始化引发异常，则不会释放内存 (ThreadUnionFind.cpp)
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/hierarchical_clustering_index.h(298): 编译类 模板 成员函数“void flann::HierarchicalClusteringIndex<flann::DummyDistance>::buildIndexImpl(void)”时
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/all_indices.h(89): 参见对正在编译的类 模板 实例化“flann::HierarchicalClusteringIndex<flann::DummyDistance>”的引用
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/all_indices.h(119): 参见对正在编译的类 模板 实例化“flann::needs_kdtree_distance<flann::HierarchicalClusteringIndex<flann::DummyDistance>>”的引用
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/all_indices.h(180): 参见对正在编译的类 模板 实例化“flann::valid_combination<flann::HierarchicalClusteringIndex,Distance,ElementType>”的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(702): warning C4291: “void *operator new(size_t,flann::PooledAllocator &)”: 未找到匹配的删除运算符；如果初始化引发异常，则不会释放内存 (ThreadUnionFind.cpp)
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(543): 编译类 模板 成员函数“void flann::KMeansIndex<flann::DummyDistance>::computeClustering(flann::KMeansIndex<flann::DummyDistance>::Node *,int *,int,int)”时
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(344): 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::computeClustering(flann::KMeansIndex<flann::DummyDistance>::Node *,int *,int,int)”的引用
+D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/hierarchical_clustering_index.h(516): warning C4291: “void *operator new(size_t,flann::PooledAllocator &)”: 未找到匹配的删除运算符；如果初始化引发异常，则不会释放内存 (ThreadUnionFind.cpp)
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/hierarchical_clustering_index.h(472): 编译类 模板 成员函数“void flann::HierarchicalClusteringIndex<flann::DummyDistance>::computeClustering(flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node *,int *,int)”时
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/hierarchical_clustering_index.h(309): 参见对正在编译的函数 模板 实例化“void flann::HierarchicalClusteringIndex<flann::DummyDistance>::computeClustering(flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node *,int *,int)”的引用
+D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(469): warning C4291: “void *operator new(size_t,flann::PooledAllocator &)”: 未找到匹配的删除运算符；如果初始化引发异常，则不会释放内存 (ThreadUnionFind.cpp)
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(468): 编译类 模板 成员函数“void flann::KMeansIndex<flann::DummyDistance>::copyTree(flann::KMeansIndex<flann::DummyDistance>::Node *&,flann::KMeansIndex<flann::DummyDistance>::Node *const &)”时
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(157): 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::copyTree(flann::KMeansIndex<flann::DummyDistance>::Node *&,flann::KMeansIndex<flann::DummyDistance>::Node *const &)”的引用
+D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/hierarchical_clustering_index.h(426): warning C4291: “void *operator new(size_t,flann::PooledAllocator &)”: 未找到匹配的删除运算符；如果初始化引发异常，则不会释放内存 (ThreadUnionFind.cpp)
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/hierarchical_clustering_index.h(425): 编译类 模板 成员函数“void flann::HierarchicalClusteringIndex<flann::DummyDistance>::copyTree(flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node *&,flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node *const &)”时
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/hierarchical_clustering_index.h(146): 参见对正在编译的函数 模板 实例化“void flann::HierarchicalClusteringIndex<flann::DummyDistance>::copyTree(flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node *&,flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node *const &)”的引用
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(249): warning C4291: “void *operator new(size_t,flann::PooledAllocator &)”: 未找到匹配的删除运算符；如果初始化引发异常，则不会释放内存 (ThreadUnionFind.cpp)
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(18): 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::serialize<Archive>(Archive &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(18): 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::serialize<Archive>(Archive &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(26): 参见对正在编译的函数 模板 实例化“void flann::serialization::access::serialize<Archive,T>(Archive &,T &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+  ,            T=flann::KMeansIndex<flann::DummyDistance>
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(40): 参见对正在编译的函数 模板 实例化“void flann::serialization::serialize<OutputArchive,T>(Archive &,T &)”的引用
+          with
+          [
+              OutputArchive=flann::serialization::SaveArchive
+  ,            T=flann::KMeansIndex<flann::DummyDistance>
+  ,            Archive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(296): 参见对正在编译的函数 模板 实例化“void flann::serialization::Serializer<T>::save<Archive>(OutputArchive &,const T &)”的引用
+          with
+          [
+              T=flann::KMeansIndex<flann::DummyDistance>
+  ,            Archive=flann::serialization::SaveArchive
+  ,            OutputArchive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(296): 参见对正在编译的函数 模板 实例化“void flann::serialization::Serializer<T>::save<Archive>(OutputArchive &,const T &)”的引用
+          with
+          [
+              T=flann::KMeansIndex<flann::DummyDistance>
+  ,            Archive=flann::serialization::SaveArchive
+  ,            OutputArchive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(265): 参见对正在编译的函数 模板 实例化“Archive &flann::serialization::OutputArchive<Archive>::operator &<flann::KMeansIndex<flann::DummyDistance>>(const T &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+  ,            T=flann::KMeansIndex<flann::DummyDistance>
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(265): 参见对正在编译的函数 模板 实例化“Archive &flann::serialization::OutputArchive<Archive>::operator &<flann::KMeansIndex<flann::DummyDistance>>(const T &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+  ,            T=flann::KMeansIndex<flann::DummyDistance>
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(263): 编译类 模板 成员函数“void flann::KMeansIndex<flann::DummyDistance>::saveIndex(FILE *)”时
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/hierarchical_clustering_index.h(244): warning C4291: “void *operator new(size_t,flann::PooledAllocator &)”: 未找到匹配的删除运算符；如果初始化引发异常，则不会释放内存 (ThreadUnionFind.cpp)
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(18): 参见对正在编译的函数 模板 实例化“void flann::HierarchicalClusteringIndex<flann::DummyDistance>::serialize<Archive>(Archive &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(18): 参见对正在编译的函数 模板 实例化“void flann::HierarchicalClusteringIndex<flann::DummyDistance>::serialize<Archive>(Archive &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(26): 参见对正在编译的函数 模板 实例化“void flann::serialization::access::serialize<Archive,T>(Archive &,T &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+  ,            T=flann::HierarchicalClusteringIndex<flann::DummyDistance>
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(40): 参见对正在编译的函数 模板 实例化“void flann::serialization::serialize<OutputArchive,T>(Archive &,T &)”的引用
+          with
+          [
+              OutputArchive=flann::serialization::SaveArchive
+  ,            T=flann::HierarchicalClusteringIndex<flann::DummyDistance>
+  ,            Archive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(296): 参见对正在编译的函数 模板 实例化“void flann::serialization::Serializer<T>::save<Archive>(OutputArchive &,const T &)”的引用
+          with
+          [
+              T=flann::HierarchicalClusteringIndex<flann::DummyDistance>
+  ,            Archive=flann::serialization::SaveArchive
+  ,            OutputArchive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(296): 参见对正在编译的函数 模板 实例化“void flann::serialization::Serializer<T>::save<Archive>(OutputArchive &,const T &)”的引用
+          with
+          [
+              T=flann::HierarchicalClusteringIndex<flann::DummyDistance>
+  ,            Archive=flann::serialization::SaveArchive
+  ,            OutputArchive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/hierarchical_clustering_index.h(261): 参见对正在编译的函数 模板 实例化“Archive &flann::serialization::OutputArchive<Archive>::operator &<flann::HierarchicalClusteringIndex<flann::DummyDistance>>(const T &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+  ,            T=flann::HierarchicalClusteringIndex<flann::DummyDistance>
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/hierarchical_clustering_index.h(261): 参见对正在编译的函数 模板 实例化“Archive &flann::serialization::OutputArchive<Archive>::operator &<flann::HierarchicalClusteringIndex<flann::DummyDistance>>(const T &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+  ,            T=flann::HierarchicalClusteringIndex<flann::DummyDistance>
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/hierarchical_clustering_index.h(259): 编译类 模板 成员函数“void flann::HierarchicalClusteringIndex<flann::DummyDistance>::saveIndex(FILE *)”时
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+D:\VS2013\VC\include\xmemory0(600): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据 (ThreadUnionFind.cpp)
+          D:\VS2013\VC\include\xmemory0(723): 参见对正在编译的函数 模板 实例化“void std::allocator<_Ty>::construct<_Objty,size_t&>(_Objty *,size_t &)”的引用
+          with
+          [
+              _Ty=int
+  ,            _Objty=int
+          ]
+          D:\VS2013\VC\include\xmemory0(723): 参见对正在编译的函数 模板 实例化“void std::allocator<_Ty>::construct<_Objty,size_t&>(_Objty *,size_t &)”的引用
+          with
+          [
+              _Ty=int
+  ,            _Objty=int
+          ]
+          D:\VS2013\VC\include\xmemory0(872): 参见对正在编译的函数 模板 实例化“void std::allocator_traits<_Alloc>::construct<_Ty,size_t&>(std::allocator<_Ty> &,_Objty *,size_t &)”的引用
+          with
+          [
+              _Alloc=std::allocator<int>
+  ,            _Ty=int
+  ,            _Objty=int
+          ]
+          D:\VS2013\VC\include\xmemory0(872): 参见对正在编译的函数 模板 实例化“void std::allocator_traits<_Alloc>::construct<_Ty,size_t&>(std::allocator<_Ty> &,_Objty *,size_t &)”的引用
+          with
+          [
+              _Alloc=std::allocator<int>
+  ,            _Ty=int
+  ,            _Objty=int
+          ]
+          D:\VS2013\VC\include\xmemory(378): 参见对正在编译的函数 模板 实例化“void std::_Wrap_alloc<std::allocator<_Ty>>::construct<int,unsigned __int64&>(_Ty *,unsigned __int64 &)”的引用
+          with
+          [
+              _Ty=int
+          ]
+          D:\VS2013\VC\include\xmemory(378): 参见对正在编译的函数 模板 实例化“void std::_Wrap_alloc<std::allocator<_Ty>>::construct<int,unsigned __int64&>(_Ty *,unsigned __int64 &)”的引用
+          with
+          [
+              _Ty=int
+          ]
+          D:\VS2013\VC\include\xmemory(416): 参见对正在编译的函数 模板 实例化“_FwdIt std::_Uninit_copy<_InIt,_FwdIt,std::allocator<_Ty>>(_InIt,_InIt,_FwdIt,std::_Wrap_alloc<std::allocator<_Ty>> &,std::_Nonscalar_ptr_iterator_tag)”的引用
+          with
+          [
+              _FwdIt=int *
+  ,            _InIt=unsigned __int64 *
+  ,            _Ty=int
+          ]
+          D:\VS2013\VC\include\xmemory(427): 参见对正在编译的函数 模板 实例化“_FwdIt std::_Uninit_copy<unsigned __int64*,_Iter,_Alloc>(_InIt,_InIt,_FwdIt,_Alloc &)”的引用
+          with
+          [
+              _FwdIt=int *
+  ,            _Iter=int *
+  ,            _Alloc=std::_Wrap_alloc<std::allocator<int>>
+  ,            _InIt=unsigned __int64 *
+          ]
+          D:\VS2013\VC\include\vector(1640): 参见对正在编译的函数 模板 实例化“_FwdIt std::_Uninitialized_copy<_Iter,int*,std::_Wrap_alloc<std::allocator<_Ty>>>(_InIt,_InIt,_FwdIt,_Alloc &)”的引用
+          with
+          [
+              _FwdIt=int *
+  ,            _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned __int64>>>
+  ,            _Ty=int
+  ,            _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned __int64>>>
+  ,            _Alloc=std::_Wrap_alloc<std::allocator<int>>
+          ]
+          D:\VS2013\VC\include\vector(1317): 参见对正在编译的函数 模板 实例化“int *std::vector<int,std::allocator<_Ty>>::_Ucopy<_Iter>(_Iter,_Iter,int *)”的引用
+          with
+          [
+              _Ty=int
+  ,            _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned __int64>>>
+          ]
+          D:\VS2013\VC\include\vector(1317): 参见对正在编译的函数 模板 实例化“int *std::vector<int,std::allocator<_Ty>>::_Ucopy<_Iter>(_Iter,_Iter,int *)”的引用
+          with
+          [
+              _Ty=int
+  ,            _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned __int64>>>
+          ]
+          D:\VS2013\VC\include\vector(1292): 参见对正在编译的函数 模板 实例化“void std::vector<int,std::allocator<_Ty>>::_Assign<_Iter>(_Iter,_Iter,std::forward_iterator_tag)”的引用
+          with
+          [
+              _Ty=int
+  ,            _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned __int64>>>
+          ]
+          D:\VS2013\VC\include\vector(1292): 参见对正在编译的函数 模板 实例化“void std::vector<int,std::allocator<_Ty>>::_Assign<_Iter>(_Iter,_Iter,std::forward_iterator_tag)”的引用
+          with
+          [
+              _Ty=int
+  ,            _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned __int64>>>
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/nn_index.h(687): 参见对正在编译的函数 模板 实例化“void std::vector<int,std::allocator<_Ty>>::assign<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned __int64>>>>(_Iter,_Iter)”的引用
+          with
+          [
+              _Ty=int
+  ,            _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned __int64>>>
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/nn_index.h(687): 参见对正在编译的函数 模板 实例化“void std::vector<int,std::allocator<_Ty>>::assign<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned __int64>>>>(_Iter,_Iter)”的引用
+          with
+          [
+              _Ty=int
+  ,            _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned __int64>>>
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/nn_index.h(681): 编译类 模板 成员函数“int flann::NNIndex<Distance>::radiusSearch(const flann::Matrix<float> &,std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::vector<std::vector<float,std::allocator<float>>,std::allocator<std::vector<float,std::allocator<float>>>> &,float,const flann::SearchParams &) const”时
+          with
+          [
+              Distance=flann::L2_Simple<float>
+  ,            _Ty=int
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/flann.hpp(367): 参见对正在编译的函数 模板 实例化“int flann::NNIndex<Distance>::radiusSearch(const flann::Matrix<float> &,std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::vector<std::vector<float,std::allocator<float>>,std::allocator<std::vector<float,std::allocator<float>>>> &,float,const flann::SearchParams &) const”的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>
+  ,            _Ty=int
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/flann.hpp(131): 参见对正在编译的类 模板 实例化“flann::NNIndex<Distance>”的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/flann.hpp(130): 编译类 模板 成员函数“flann::Index<Dist>::~Index(void)”时
+          with
+          [
+              Dist=flann::L2_Simple<float>
+          ]
+D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(441): warning C4291: “void *operator new(size_t,flann::PooledAllocator &)”: 未找到匹配的删除运算符；如果初始化引发异常，则不会释放内存 (ThreadUnionFind.cpp)
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(18): 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::Node::serialize<Archive>(Archive &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(18): 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::Node::serialize<Archive>(Archive &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(26): 参见对正在编译的函数 模板 实例化“void flann::serialization::access::serialize<Archive,T>(Archive &,T &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+  ,            T=flann::KMeansIndex<flann::DummyDistance>::Node
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(40): 参见对正在编译的函数 模板 实例化“void flann::serialization::serialize<OutputArchive,T>(Archive &,T &)”的引用
+          with
+          [
+              OutputArchive=flann::serialization::SaveArchive
+  ,            T=flann::KMeansIndex<flann::DummyDistance>::Node
+  ,            Archive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(296): 参见对正在编译的函数 模板 实例化“void flann::serialization::Serializer<T>::save<Archive>(OutputArchive &,const T &)”的引用
+          with
+          [
+              T=flann::KMeansIndex<flann::DummyDistance>::Node
+  ,            Archive=flann::serialization::SaveArchive
+  ,            OutputArchive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(296): 参见对正在编译的函数 模板 实例化“void flann::serialization::Serializer<T>::save<Archive>(OutputArchive &,const T &)”的引用
+          with
+          [
+              T=flann::KMeansIndex<flann::DummyDistance>::Node
+  ,            Archive=flann::serialization::SaveArchive
+  ,            OutputArchive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(251): 参见对正在编译的函数 模板 实例化“Archive &flann::serialization::OutputArchive<Archive>::operator &<flann::KMeansIndex<flann::DummyDistance>::Node>(const T &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+  ,            T=flann::KMeansIndex<flann::DummyDistance>::Node
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(251): 参见对正在编译的函数 模板 实例化“Archive &flann::serialization::OutputArchive<Archive>::operator &<flann::KMeansIndex<flann::DummyDistance>::Node>(const T &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+  ,            T=flann::KMeansIndex<flann::DummyDistance>::Node
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(18): 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::serialize<Archive>(Archive &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(18): 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::serialize<Archive>(Archive &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/hierarchical_clustering_index.h(394): warning C4291: “void *operator new(size_t,flann::PooledAllocator &)”: 未找到匹配的删除运算符；如果初始化引发异常，则不会释放内存 (ThreadUnionFind.cpp)
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(18): 参见对正在编译的函数 模板 实例化“void flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node::serialize<Archive>(Archive &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(18): 参见对正在编译的函数 模板 实例化“void flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node::serialize<Archive>(Archive &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(26): 参见对正在编译的函数 模板 实例化“void flann::serialization::access::serialize<Archive,T>(Archive &,T &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+  ,            T=flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(40): 参见对正在编译的函数 模板 实例化“void flann::serialization::serialize<OutputArchive,T>(Archive &,T &)”的引用
+          with
+          [
+              OutputArchive=flann::serialization::SaveArchive
+  ,            T=flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node
+  ,            Archive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(296): 参见对正在编译的函数 模板 实例化“void flann::serialization::Serializer<T>::save<Archive>(OutputArchive &,const T &)”的引用
+          with
+          [
+              T=flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node
+  ,            Archive=flann::serialization::SaveArchive
+  ,            OutputArchive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(296): 参见对正在编译的函数 模板 实例化“void flann::serialization::Serializer<T>::save<Archive>(OutputArchive &,const T &)”的引用
+          with
+          [
+              T=flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node
+  ,            Archive=flann::serialization::SaveArchive
+  ,            OutputArchive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/hierarchical_clustering_index.h(246): 参见对正在编译的函数 模板 实例化“Archive &flann::serialization::OutputArchive<Archive>::operator &<flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node>(const T &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+  ,            T=flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/algorithms/hierarchical_clustering_index.h(246): 参见对正在编译的函数 模板 实例化“Archive &flann::serialization::OutputArchive<Archive>::operator &<flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node>(const T &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+  ,            T=flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(18): 参见对正在编译的函数 模板 实例化“void flann::HierarchicalClusteringIndex<flann::DummyDistance>::serialize<Archive>(Archive &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/serialization.h(18): 参见对正在编译的函数 模板 实例化“void flann::HierarchicalClusteringIndex<flann::DummyDistance>::serialize<Archive>(Archive &)”的引用
+          with
+          [
+              Archive=flann::serialization::SaveArchive
+          ]
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+          D:\PCL1.8_MSVC2013\3rdParty\FLANN\include\flann/util/allocator.h(197) : 参见“operator new”的声明
+  moc_ThreadRGBResampling.cpp
+LINK : warning LNK4012: 值“x64/release”无效，必须是“ARM, EBC, X64, or X86”；已忽略选项
+  PCLVisualizer.vcxproj -> F:\Project_CPlus\PCLCLustering\x64\Release\PCLVisualizer.exe

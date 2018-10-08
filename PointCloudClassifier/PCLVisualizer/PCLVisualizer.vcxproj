@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B12702AD-ABFB-343A-A199-8E24837244A3}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;WIN32;WIN64;QT_DLL;QT_NO_DEBUG;_SCL_SECURE_NO_WARNINGS;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Console</SubSystem>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</GenerateDebugInformation>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qtmain.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">/machine:x64/release %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <QtMoc>
+      <InputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(FullPath)</InputFile>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">output</DynamicSource>
+      <ExecutionDescription Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc'ing %(Identity)...</ExecutionDescription>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets</IncludePath>
+      <Define Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;WIN32;WIN64;QT_DLL;QT_NO_DEBUG;_SCL_SECURE_NO_WARNINGS;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB</Define>
+      <QTDIR Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)</QTDIR>
+    </QtMoc>
+    <QtUic>
+      <ExecutionDescription Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Uic'ing %(Identity)...</ExecutionDescription>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\ui_%(Filename).h</OutputFile>
+    </QtUic>
+    <QtRcc>
+      <ExecutionDescription Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Rcc'ing %(Identity)...</ExecutionDescription>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\PCL-openCV-Qt-Eigen-Debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\PCL-openCV-Qt-Eigen-Release.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;WIN64;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmaind.lib;Qt5Cored.lib;Qt5Guid.lib;Qt5Widgetsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <QtMoc>
+      <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <IncludePath>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets</IncludePath>
+      <Define>UNICODE;WIN32;WIN64;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB</Define>
+    </QtMoc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\ui_%(Filename).h</OutputFile>
+    </QtUic>
+    <QtRcc>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="dlgAddPointCloud.cpp" />
+    <ClCompile Include="dlgBinarySignal.cpp" />
+    <ClCompile Include="dlgCopyFile.cpp" />
+    <ClCompile Include="dlgIntensityFix.cpp" />
+    <ClCompile Include="dlgKdTreeCluster.cpp" />
+    <ClCompile Include="dlgLAS2TXT.cpp" />
+    <ClCompile Include="dlgMultiViewer.cpp" />
+    <ClCompile Include="dlgPassThroughFilter.cpp" />
+    <ClCompile Include="dlgPCD2TXT.cpp" />
+    <ClCompile Include="dlgPCDBinary2PCDAscii.cpp" />
+    <ClCompile Include="dlgTestDialog.cpp" />
+    <ClCompile Include="dlgTxt2PCD.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PCLViewer.cpp" />
+    <ClCompile Include="ThreadBinarySignal.cpp" />
+    <ClCompile Include="ThreadBuildSingulation.cpp" />
+    <ClCompile Include="ThreadCalcPointCloudMsg.cpp" />
+    <ClCompile Include="ThreadDelegate.cpp" />
+    <ClCompile Include="ThreadFilterVegetation.cpp" />
+    <ClCompile Include="ThreadFixIntensity.cpp" />
+    <ClCompile Include="ThreadLoadingCloudPoints.cpp" />
+    <ClCompile Include="ThreadPassThrough.cpp" />
+    <ClCompile Include="ThreadPCD2PCD.cpp" />
+    <ClCompile Include="ThreadPCD2TXT.cpp" />
+    <ClCompile Include="ThreadRGBResampling.cpp" />
+    <ClCompile Include="ThreadSaveAs.cpp" />
+    <ClCompile Include="ThreadTXT2PCD.cpp" />
+    <ClCompile Include="ThreadUnionFind.cpp" />
+    <ClCompile Include="UnionFind.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="dlgAddPointCloud.ui" />
+    <QtUic Include="dlgBinarySignal.ui" />
+    <QtUic Include="dlgCopyFile.ui" />
+    <QtUic Include="dlgIntensityFix.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+    <QtUic Include="dlgKdTreeCluster.ui" />
+    <QtUic Include="dlgLAS2TXT.ui" />
+    <QtUic Include="dlgMultiViewer.ui" />
+    <QtUic Include="dlgPassThroughFilter.ui" />
+    <QtUic Include="dlgPCD2TXT.ui" />
+    <QtUic Include="dlgPCDBinary2PCDAscii.ui" />
+    <QtUic Include="dlgTestDialog.ui" />
+    <QtUic Include="dlgTxt2PCD.ui" />
+    <QtUic Include="PCLViewer.ui">
+      <SubType>Designer</SubType>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="PCLVisualizer.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="PCLViewer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="dlgLAS2TXT.h" />
+    <QtMoc Include="ThreadPassThrough.h" />
+    <QtMoc Include="dlgPCDBinary2PCDAscii.h" />
+    <QtMoc Include="ThreadPCD2PCD.h" />
+    <QtMoc Include="dlgKdTreeCluster.h" />
+    <QtMoc Include="dlgAddPointCloud.h" />
+    <QtMoc Include="dlgBinarySignal.h" />
+    <QtMoc Include="ThreadBinarySignal.h" />
+    <QtMoc Include="ThreadBuildSingulation.h" />
+    <QtMoc Include="dlgTestDialog.h" />
+    <QtMoc Include="dlgMultiViewer.h" />
+    <ClInclude Include="DiyXYZRGBPoint.h" />
+    <QtMoc Include="ThreadDelegate.h" />
+    <QtMoc Include="dlgCopyFile.h" />
+    <QtMoc Include="ThreadFilterVegetation.h" />
+    <QtMoc Include="ThreadRGBResampling.h" />
+    <QtMoc Include="ThreadLoadingCloudPoints.h" />
+    <QtMoc Include="ThreadCalcPointCloudMsg.h" />
+    <QtMoc Include="ThreadSaveAs.h" />
+    <ClInclude Include="MyPointType.h" />
+    <ClInclude Include="UnionFind.h" />
+    <QtMoc Include="ThreadUnionFind.h" />
+    <QtMoc Include="ThreadPCD2TXT.h" />
+    <QtMoc Include="ThreadTXT2PCD.h" />
+    <QtMoc Include="ThreadFixIntensity.h" />
+    <QtMoc Include="dlgPassThroughFilter.h" />
+    <QtMoc Include="dlgIntensityFix.h" />
+    <QtMoc Include="dlgTxt2PCD.h" />
+    <QtMoc Include="dlgPCD2TXT.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PCLVisualizer.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" Qt5Version_x0020_x64="Qt5.7.0" MocOptions="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
